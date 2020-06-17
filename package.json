@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/RuwanSudheera/NoteTakingAPI#readme",
   "dependencies": {
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
   }
 }
