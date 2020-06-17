@@ -1,0 +1,20 @@
+{
+  "name": "NoteTakingAPI",
+  "version": "1.0.0",
+  "description": "This is a note taking application and this API s are developed  for CRUD operations using Node and express JS.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuwanSudheera/NoteTakingAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RuwanSudheera/NoteTakingAPI/issues"
+  },
+  "homepage": "https://github.com/RuwanSudheera/NoteTakingAPI#readme"
+}
