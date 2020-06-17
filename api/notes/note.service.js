@@ -33,7 +33,7 @@ module.exports = {
 
     getNoteByNoteId: (id, callBack) => {
         pool.query(
-            `select note_id, note_title, note_body, note_date from notes where id = ?`,
+            `select note_id, note_title, note_body, note_date from notes where note_id = ?`,
             [id],
             (error, results, fields) => {
                 if(error) {
@@ -62,10 +62,10 @@ module.exports = {
         );
     },
 
-    deleteNote: (data, callBack) => {
+    deleteNote: (id, callBack) => {
         pool.query(
-            `delete from notes where id = ?`,
-            [data.id],
+            `delete from notes where note_id = ?`,
+            [id],
             (error, results, fields) => {
                 if(error) {
                     return callBack(error);
